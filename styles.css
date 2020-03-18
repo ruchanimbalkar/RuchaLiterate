@@ -7,7 +7,7 @@
 
 .jumbotron{
     
-    background-color:#ffff66;
+    background-color:#ffcc00;
     
 }
 
@@ -18,4 +18,9 @@
 
 .font-cute{
     font-family: 'Bellota', cursive;
+}
+
+footer{
+    background-image: linear-gradient(#ffcc00, #ffff66);
+    padding: 20px 0px;
 }
