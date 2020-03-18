@@ -4,3 +4,14 @@
     padding-bottom: 30px;
     margin-bottom: 5px;
 }
+
+.jumbotron{
+    
+    background-color:#ffff66;
+    
+}
+
+.text-pink{
+    color:#ff0066;
+    font-weight: bold;
+}
