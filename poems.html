@@ -19,41 +19,33 @@
 
    <body>
 
-    <nav class="navbar navbar-expand-sm fixed-top justify-content-end">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-           <!-- <span class="navbar-toggler-icon"></span>-->
-           <i class="fa fa-bars" aria-hidden="true"></i>
-          </button>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="text-pink nav-link" aria-disabled="true" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="text-pink nav-link disabled" href="#">Poems</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="text-pink nav-link" href="discussions.html">Discussions</a>
-                    </li>
-                
-                </ul>
-        </div>
-    </nav>
-
-
-
         <header class="jumbotron">
             <div class="container">
-                <div class="row">
-                    <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                <div class="row justify-content-center">
+                    <div class="col  col-sm-3  col-md-2">
                         <img src="ruchaliterate.png" class="img-fluid" />
                     </div>
-                    <div class="col"> 
-                        <h1>Rucha Literate</h1>
-                        <h2> Writer | Poetess | Reader </h2>
+                    <div class="col-xs-12 col"> 
+                        <h1 class="text-pink">Rucha Literate</h1>
+                        <h2 class="text-pink"> Writer | Poetess | Reader </h2>
+                        
                     </div>
                 </div>
+               <div class="row">
+                   <div class="col"></div>
+                   <div class="col"></div>
+                    <div class="col order-sm-last btn-group btn btn-lg mt-5">
+                        <button type="button" class="btn btn-warning dropdown-toggle text-pink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Navigate
+                        </button>
+                                <div class=" dropdown-menu dropdown-menu-right ">
+                                <a class="dropdown-item bg-warning text-pink" href="index.html">About</a>
+                                <a class="dropdown-item disabled bg-warning" href="#">Poems</a>
+                                <a class="dropdown-item bg-warning text-pink" href="discussions.html">Discussions</a>
+                            </div>
+                        
+                    </div>
+               </div>
             </div>
         </header>
       
